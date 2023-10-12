@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+int a,b,c,d,e;
+int sum,avg;
+cout<<"enter the numbers";
+cin>>a>>b>>c>>d>>e;
+sum=a+b+c+d+e;
+cout<<"sum of numbers is :"<<sum;
+avg=sum/5;
+cout<<"average of numbers is :"<<avg;
+return 0;
+}
